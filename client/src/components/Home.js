@@ -25,7 +25,7 @@ const Header = () => {
  
     try {
       console.log(name+" "+password);
-     const api = await axios.get('http://localhost:8000/user/Login', {
+     const api = await axios.get('https://adya-task-backend.vercel.app/user/Login', {
   params: {
     name:name,
     password:password,
